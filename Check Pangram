@@ -1,0 +1,7 @@
+s = input().lower()
+letters = set("abcdefghijklmnopqrstuvwxyz")
+
+if letters.issubset(set(s)):
+    print("Pangram")
+else:
+    print("Not Pangram")
